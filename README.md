@@ -4,7 +4,9 @@ TypeScript Type Manipulation Utils is a collection of powerful and reusable type
 
 ## Features
 
-### Success & Error Handling Type: `boolean-payload`
+### Success & Error Handling Type
+
+[boolean-payload](https://github.com/Lycolia/ts-type-manipulation-utilities/tree/main/src/utils/boolean-payload)
 
 This type definition is designed to facilitate error handling by allowing you to associate a payload with a boolean value, `isTruthy`. When `isTruthy` is `true`, the payload represents a successful result, whereas when `isTruthy` is `false`, the payload represents an error or an exceptional case. This can be particularly useful when working with API fetches or exception handling.
 
@@ -18,11 +20,15 @@ The `BooleanPayload` type offers several advantages:
 
 In summary, the `BooleanPayload` type is a convenient and efficient way to handle success and error cases in your TypeScript code, particularly when working with API fetches or exception handling. It promotes type safety, readability, and flexibility, making your code more robust and easier to maintain.
 
-### Create Object keys type from String Arrays: `keys-object`
+### Create Object keys type from String Arrays
+
+[keys-object](https://github.com/Lycolia/ts-type-manipulation-utilities/tree/main/src/utils/keys-object)
 
 The KeysObject type is intended for use with the Type Guard function, and provides a convenient way to ensure that a given key exists within an object while keeping the implementation simple and focused on the existence of the key. This approach improves the type safety and readability of TypeScript code without performing complex value type checking.
 
-### Create Union type from Object keys: `object-keys-union`
+### Create Union type from Object keys
+
+[object-keys-union](https://github.com/Lycolia/ts-type-manipulation-utilities/tree/main/src/utils/object-keys-union)
 
 The `ObjectKeysUnion` type provides a convenient way to extract the keys of an object type and generate a union type from them. This approach enhances type safety, readability, and maintainability when working with functions that require specific object keys as their arguments.
 
